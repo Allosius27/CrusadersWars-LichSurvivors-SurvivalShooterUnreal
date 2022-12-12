@@ -1,0 +1,43 @@
+Hello there! Thank you for supporting my work! :)
+
+This is a small guide for you to understand part of the content of this environment:
+
+1) You will find 2 Levels in "Content > ART > Levels". The "OverviewMap" level contains all the assets, and the GothicTemple level contains the environment example. 
+
+2) Texture nomenclature is the following:
+
+T_Name_AO (ambient occlusion)
+T_Name_BC (base color)
+T_Name_C  (curvature)
+T_Name_H  (height/displacement)
+T_Name_M  (metallic or mask)
+T_Name_N  (normal)
+T_Name_R  (roughness)
+T_Name_NRAO (normal, roughness, ao)
+T_Name_RMA (roughness, metallic, ao)
+T_Name_RHA (roughness, height, ao)
+
+The NRAO works this way: the Red channel has the Roughness, Green and Alpha channel have the Normal information and the Blue channel has the AO. You will find a Material Function called MF_NormalBlueChFix in those shaders who use this texture packing technique.
+
+3) You will find that a few textures have the "Mip Gen Settings" set as "Sharpen10" or "NoMipmaps". I configured some of them that way to look better, but if you are consern about that, you can change that to the default value "FromTextureGroup".
+
+4) If you want to read more specific about the rock, gothic assets or foliage shaders, you can check this post: https://80.lv/articles/gothic-temple-environment-breakdown
+Here are a few videos of the environment and the how the shaders work:
+
+
+Any doubts? Let me know! fernandes.angelj@gmail.com
+
+-----------------------------------------------------------------
+
+And please, follow me on:
+
+ArtStation: https://www.artstation.com/angelfernandes
+Instagram: https://www.instagram.com/angelfernandes.3dart/
+YouTube: Angel Fernandes
+
+-----------------------------------------------------------------
+
+You are doing me a great favor if you make your next purchase through this link:
+https://angelfernandes.artstation.com/store
+
+Thank you very much :) 
